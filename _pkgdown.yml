@@ -1,0 +1,10 @@
+url: https://danielinteractive.github.io/munich/
+template:
+  bootstrap: 5
+
+reference:
+  - title: Functions
+    contents:
+      - compute
+      - hello
+      - hello2
