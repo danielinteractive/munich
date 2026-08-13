@@ -1,0 +1,29 @@
+Package: munich
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Daniel", "Sabanes",
+      email = "daniel@rpact.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Examples for the workshop at LMU Munich. 
+  Not to be intended to be really useful.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+  R (>= 4.6)
+Imports:
+  stringr,
+  checkmate
+Suggests:
+    dplyr (>= 1.2.1),
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/roxygen2/version: 8.0.0
+VignetteBuilder: knitr
+Config/testthat/edition: 3
